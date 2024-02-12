@@ -47,7 +47,7 @@ def balance_tiempo_respuesta(lista_ms, datos):
     result.append(rapidos)
     return result
 
-def grafica_barras(datos, titulo, etiquetas, atributos=('Lentas', 'Rápidas')):
+def grafica_barras(datos, titulo, etiquetas, atributos=('Lentas', 'Rápidas'), loc='upper center'):
     fig, ax = plt.subplots(layout='constrained')
     bar_color = ['b', 'r']
 
@@ -64,7 +64,7 @@ def grafica_barras(datos, titulo, etiquetas, atributos=('Lentas', 'Rápidas')):
     ax.set_title(titulo) #Titulo
     ax.set_xlabel('Umbral de tiempo de respuesta (ms)') #Etiqueta eje x
     ax.set_ylabel('Número de respuestas') #Etiqueta eje y
-    ax.legend(loc='upper center', ncols=3)
+    ax.legend(loc=loc, ncols=3)
     plt.show()
 
 # def grafica_barras_tr(datos, titulo, etiquetas, atributos=('Lentas', 'Rápidas')):
