@@ -67,6 +67,26 @@ def grafica_barras(datos, titulo, etiquetas, atributos=('Lentas', 'Rápidas'), l
     ax.legend(loc=loc, ncols=3)
     plt.show()
 
+"""Función para extraer los datos en función del tamaño de la ventana temporal.
+   Dado una ruta de archivo extraemos datos de cada respuesta, para ello utilizamos los tiempos de pulsación como punto 
+   final y retrocedemos tantos segundos como indique el tamaño de la ventana temporal.
+   
+    Devuelve un dataframe con los datos extraidos.
+   """
+
+"""
+
+"""
+def extraer_ventana(muse_data, time_stamp, ms_prev, ms_post):
+    tiempo_inicio = time_stamp - pd.Timedelta(milliseconds=ms_prev)
+    tiempo_fin = time_stamp + pd.Timedelta(milliseconds=ms_post)
+
+    ventana = muse_data[(muse_data['TimeStamp'] >= tiempo_inicio) & (muse_data['TimeStamp'] <= tiempo_fin)]
+
+    return ventana
+
+def hola():
+    print("Hola")
 # def grafica_barras_tr(datos, titulo, etiquetas, atributos=('Lentas', 'Rápidas')):
 #     fig, ax = plt.subplots(layout='constrained')
 #     bar_color = ['b', 'r']
