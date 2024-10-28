@@ -19,5 +19,8 @@ Random Forest Specificity: 0.6372549019607843
 Random Forest F1-Score: 0.47058823529411764
 Random Forest F1-Score(macro): 0.6255380200860832
 
-	- Con una menor cantidad de features hemos mejorado ligeramente la 
+	- Con una menor cantidad de features hemos mejorado ligeramente la accuracy y hemos mejorado el f1-score(macro) de 0.53 a 0.62
 -evaluando en función de g-mean
+	Mismos resultados
+
+25/10
