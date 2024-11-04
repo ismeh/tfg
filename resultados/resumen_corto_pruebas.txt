@@ -28,7 +28,7 @@
 					('museData7.csv', 'XGB')  | 0.635417
 					('museData9.csv', 'XGB')  | 0.602941
 					('museData9.csv', 'SVM')  | 0.602941
-		R3
+		R3(ms_prev=2300)
 				>=0.6
 					('museData10.csv', 'RF')  | 0.659341 
 					('museData10.csv', 'XGB') | 0.623626 
@@ -37,11 +37,12 @@
 					('museData12.csv', 'SVM') | 0.622727
 					('museData13.csv', 'RF')  | 0.675 
 					('museData9.csv', 'RF')   | 0.611111
-		R4		>=0.6
+		R4(ms_prev=4800)
+				>=0.6
 					('museData18.csv', 'RF')  | 0.6 
 					('museData18.csv', 'XGB')  | 0.6 
 					('museData5.csv', 'SVM')  | 0.6
-		R5
+		R5(ms_prev=7300)
 				>=0.6
 					('museData13.csv', 'XGB') | 0.7
 					('museData6.csv', 'XGB')  | 0.708333
@@ -52,7 +53,7 @@
 					('museData19.csv', 'SVM') | 0.675
 					('museData4.csv', 'SVM')  | 0.617647
 					('museData6.csv', 'SVM')  | 0.638889 
-		R6	
+		R6(ms_prev=9800)
 				>=0.8
 					('museData13.csv', 'XGB') | 0.9
 				>=0.6
@@ -78,4 +79,8 @@ obtenemos mejores ressultados.
 	-Modificar el umbral de valores perdidos no esta teniendo efectos en estos momentos, por lo
 	que a partir de ahora lo estableceremos a 0.1 con el objetivo de no volver a cambiarlo.
 	-Para los siguientes experimentos utilizaremos solo las ventanas relativas.
+	-Los mejores resultados los podemos encontrar en la ventana más grande R6 o en la más pequeña R1
+
+Notas:
+	Las selección de características se ha hecho en base al fichero muse12, obteniendo un total de 17 características
 
