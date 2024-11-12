@@ -1,0 +1,1208 @@
+ms_prev ms_post low_per high_per    per_miss_val
+800      200     700     900     0.05
+0 - museData0.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 262/262 [01:19<00:00,  3.29it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.64      0.56      0.60        16
+           1       0.46      0.55      0.50        11
+
+    accuracy                           0.56        27
+   macro avg       0.55      0.55      0.55        27
+weighted avg       0.57      0.56      0.56        27
+
+G-Mean: 0.553977
+Accuracy: 0.555556
+Accuracy(Balanced): 0.553977
+Precision: 0.552198
+Recall: 0.545455
+Specificity: 0.562500
+F1-Score(macro): 0.550000
+F1-Score(binary): 0.500000
+F1-Score(default): 0.500000
+F1-Score(none): [0.6 0.5]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.69      0.69      0.69        16
+           1       0.55      0.55      0.55        11
+
+    accuracy                           0.63        27
+   macro avg       0.62      0.62      0.62        27
+weighted avg       0.63      0.63      0.63        27
+
+G-Mean: 0.616477
+Accuracy: 0.629630
+Accuracy(Balanced): 0.616477
+Precision: 0.616477
+Recall: 0.545455
+Specificity: 0.687500
+F1-Score(macro): 0.616477
+F1-Score(binary): 0.545455
+F1-Score(default): 0.545455
+F1-Score(none): [0.6875     0.54545455]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.69      0.56      0.62        16
+           1       0.50      0.64      0.56        11
+
+    accuracy                           0.59        27
+   macro avg       0.60      0.60      0.59        27
+weighted avg       0.61      0.59      0.60        27
+
+G-Mean: 0.599432
+Accuracy: 0.592593
+Accuracy(Balanced): 0.599432
+Precision: 0.596154
+Recall: 0.636364
+Specificity: 0.562500
+F1-Score(macro): 0.590345
+F1-Score(binary): 0.560000
+F1-Score(default): 0.560000
+F1-Score(none): [0.62068966 0.56      ]
+1 - museData1.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 436/436 [01:42<00:00,  4.24it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.44      0.79      0.57        19
+           1       0.60      0.24      0.34        25
+
+    accuracy                           0.48        44
+   macro avg       0.52      0.51      0.45        44
+weighted avg       0.53      0.48      0.44        44
+
+G-Mean: 0.514737
+Accuracy: 0.477273
+Accuracy(Balanced): 0.514737
+Precision: 0.520588
+Recall: 0.240000
+Specificity: 0.789474
+F1-Score(macro): 0.454447
+F1-Score(binary): 0.342857
+F1-Score(default): 0.342857
+F1-Score(none): [0.56603774 0.34285714]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.43      0.63      0.51        19
+           1       0.56      0.36      0.44        25
+
+    accuracy                           0.48        44
+   macro avg       0.50      0.50      0.47        44
+weighted avg       0.50      0.48      0.47        44
+
+G-Mean: 0.495789
+Accuracy: 0.477273
+Accuracy(Balanced): 0.495789
+Precision: 0.495536
+Recall: 0.360000
+Specificity: 0.631579
+F1-Score(macro): 0.474831
+F1-Score(binary): 0.439024
+F1-Score(default): 0.439024
+F1-Score(none): [0.5106383  0.43902439]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.35      0.63      0.45        19
+           1       0.30      0.12      0.17        25
+
+    accuracy                           0.34        44
+   macro avg       0.33      0.38      0.31        44
+weighted avg       0.32      0.34      0.29        44
+
+G-Mean: 0.375789
+Accuracy: 0.340909
+Accuracy(Balanced): 0.375789
+Precision: 0.326471
+Recall: 0.120000
+Specificity: 0.631579
+F1-Score(macro): 0.312129
+F1-Score(binary): 0.171429
+F1-Score(default): 0.171429
+F1-Score(none): [0.45283019 0.17142857]
+2 - museData10.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 234/234 [01:01<00:00,  3.83it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.69      0.92      0.79        12
+           1       0.88      0.58      0.70        12
+
+    accuracy                           0.75        24
+   macro avg       0.78      0.75      0.74        24
+weighted avg       0.78      0.75      0.74        24
+
+G-Mean: 0.750000
+Accuracy: 0.750000
+Accuracy(Balanced): 0.750000
+Precision: 0.781250
+Recall: 0.583333
+Specificity: 0.916667
+F1-Score(macro): 0.742857
+F1-Score(binary): 0.700000
+F1-Score(default): 0.700000
+F1-Score(none): [0.78571429 0.7       ]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.69      0.92      0.79        12
+           1       0.88      0.58      0.70        12
+
+    accuracy                           0.75        24
+   macro avg       0.78      0.75      0.74        24
+weighted avg       0.78      0.75      0.74        24
+
+G-Mean: 0.750000
+Accuracy: 0.750000
+Accuracy(Balanced): 0.750000
+Precision: 0.781250
+Recall: 0.583333
+Specificity: 0.916667
+F1-Score(macro): 0.742857
+F1-Score(binary): 0.700000
+F1-Score(default): 0.700000
+F1-Score(none): [0.78571429 0.7       ]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.73      0.92      0.81        12
+           1       0.89      0.67      0.76        12
+
+    accuracy                           0.79        24
+   macro avg       0.81      0.79      0.79        24
+weighted avg       0.81      0.79      0.79        24
+
+G-Mean: 0.791667
+Accuracy: 0.791667
+Accuracy(Balanced): 0.791667
+Precision: 0.811111
+Recall: 0.666667
+Specificity: 0.916667
+F1-Score(macro): 0.788360
+F1-Score(binary): 0.761905
+F1-Score(default): 0.761905
+F1-Score(none): [0.81481481 0.76190476]
+3 - museData11.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 248/248 [00:58<00:00,  4.23it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.75      0.56      0.64        16
+           1       0.46      0.67      0.55         9
+
+    accuracy                           0.60        25
+   macro avg       0.61      0.61      0.59        25
+weighted avg       0.65      0.60      0.61        25
+
+G-Mean: 0.614583
+Accuracy: 0.600000
+Accuracy(Balanced): 0.614583
+Precision: 0.605769
+Recall: 0.666667
+Specificity: 0.562500
+F1-Score(macro): 0.594156
+F1-Score(binary): 0.545455
+F1-Score(default): 0.545455
+F1-Score(none): [0.64285714 0.54545455]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.67      0.50      0.57        16
+           1       0.38      0.56      0.45         9
+
+    accuracy                           0.52        25
+   macro avg       0.53      0.53      0.51        25
+weighted avg       0.57      0.52      0.53        25
+
+G-Mean: 0.527778
+Accuracy: 0.520000
+Accuracy(Balanced): 0.527778
+Precision: 0.525641
+Recall: 0.555556
+Specificity: 0.500000
+F1-Score(macro): 0.512987
+F1-Score(binary): 0.454545
+F1-Score(default): 0.454545
+F1-Score(none): [0.57142857 0.45454545]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.67      0.50      0.57        16
+           1       0.38      0.56      0.45         9
+
+    accuracy                           0.52        25
+   macro avg       0.53      0.53      0.51        25
+weighted avg       0.57      0.52      0.53        25
+
+G-Mean: 0.527778
+Accuracy: 0.520000
+Accuracy(Balanced): 0.527778
+Precision: 0.525641
+Recall: 0.555556
+Specificity: 0.500000
+F1-Score(macro): 0.512987
+F1-Score(binary): 0.454545
+F1-Score(default): 0.454545
+F1-Score(none): [0.57142857 0.45454545]
+4 - museData12.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 188/188 [00:42<00:00,  4.44it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.43      0.33      0.38         9
+           1       0.50      0.60      0.55        10
+
+    accuracy                           0.47        19
+   macro avg       0.46      0.47      0.46        19
+weighted avg       0.47      0.47      0.46        19
+
+G-Mean: 0.466667
+Accuracy: 0.473684
+Accuracy(Balanced): 0.466667
+Precision: 0.464286
+Recall: 0.600000
+Specificity: 0.333333
+F1-Score(macro): 0.460227
+F1-Score(binary): 0.545455
+F1-Score(default): 0.545455
+F1-Score(none): [0.375      0.54545455]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.50      0.44      0.47         9
+           1       0.55      0.60      0.57        10
+
+    accuracy                           0.53        19
+   macro avg       0.52      0.52      0.52        19
+weighted avg       0.52      0.53      0.52        19
+
+G-Mean: 0.522222
+Accuracy: 0.526316
+Accuracy(Balanced): 0.522222
+Precision: 0.522727
+Recall: 0.600000
+Specificity: 0.444444
+F1-Score(macro): 0.521008
+F1-Score(binary): 0.571429
+F1-Score(default): 0.571429
+F1-Score(none): [0.47058824 0.57142857]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.45      0.56      0.50         9
+           1       0.50      0.40      0.44        10
+
+    accuracy                           0.47        19
+   macro avg       0.48      0.48      0.47        19
+weighted avg       0.48      0.47      0.47        19
+
+G-Mean: 0.477778
+Accuracy: 0.473684
+Accuracy(Balanced): 0.477778
+Precision: 0.477273
+Recall: 0.400000
+Specificity: 0.555556
+F1-Score(macro): 0.472222
+F1-Score(binary): 0.444444
+F1-Score(default): 0.444444
+F1-Score(none): [0.5        0.44444444]
+5 - museData13.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 56/56 [00:13<00:00,  4.27it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.50      0.33      0.40         3
+           1       0.50      0.67      0.57         3
+
+    accuracy                           0.50         6
+   macro avg       0.50      0.50      0.49         6
+weighted avg       0.50      0.50      0.49         6
+
+G-Mean: 0.500000
+Accuracy: 0.500000
+Accuracy(Balanced): 0.500000
+Precision: 0.500000
+Recall: 0.666667
+Specificity: 0.333333
+F1-Score(macro): 0.485714
+F1-Score(binary): 0.571429
+F1-Score(default): 0.571429
+F1-Score(none): [0.4        0.57142857]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.75      1.00      0.86         3
+           1       1.00      0.67      0.80         3
+
+    accuracy                           0.83         6
+   macro avg       0.88      0.83      0.83         6
+weighted avg       0.88      0.83      0.83         6
+
+G-Mean: 0.833333
+Accuracy: 0.833333
+Accuracy(Balanced): 0.833333
+Precision: 0.875000
+Recall: 0.666667
+Specificity: 1.000000
+F1-Score(macro): 0.828571
+F1-Score(binary): 0.800000
+F1-Score(default): 0.800000
+F1-Score(none): [0.85714286 0.8       ]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.25      0.33      0.29         3
+           1       0.00      0.00      0.00         3
+
+    accuracy                           0.17         6
+   macro avg       0.12      0.17      0.14         6
+weighted avg       0.12      0.17      0.14         6
+
+G-Mean: 0.166667
+Accuracy: 0.166667
+Accuracy(Balanced): 0.166667
+Precision: 0.125000
+Recall: 0.000000
+Specificity: 0.333333
+F1-Score(macro): 0.142857
+F1-Score(binary): 0.000000
+F1-Score(default): 0.000000
+F1-Score(none): [0.28571429 0.        ]
+6 - museData14.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 202/202 [01:05<00:00,  3.09it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.42      0.89      0.57         9
+           1       0.50      0.08      0.14        12
+
+    accuracy                           0.43        21
+   macro avg       0.46      0.49      0.36        21
+weighted avg       0.47      0.43      0.33        21
+
+G-Mean: 0.486111
+Accuracy: 0.428571
+Accuracy(Balanced): 0.486111
+Precision: 0.460526
+Recall: 0.083333
+Specificity: 0.888889
+F1-Score(macro): 0.357143
+F1-Score(binary): 0.142857
+F1-Score(default): 0.142857
+F1-Score(none): [0.57142857 0.14285714]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.57      0.89      0.70         9
+           1       0.86      0.50      0.63        12
+
+    accuracy                           0.67        21
+   macro avg       0.71      0.69      0.66        21
+weighted avg       0.73      0.67      0.66        21
+
+G-Mean: 0.694444
+Accuracy: 0.666667
+Accuracy(Balanced): 0.694444
+Precision: 0.714286
+Recall: 0.500000
+Specificity: 0.888889
+F1-Score(macro): 0.663616
+F1-Score(binary): 0.631579
+F1-Score(default): 0.631579
+F1-Score(none): [0.69565217 0.63157895]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.43      1.00      0.60         9
+           1       0.00      0.00      0.00        12
+
+    accuracy                           0.43        21
+   macro avg       0.21      0.50      0.30        21
+weighted avg       0.18      0.43      0.26        21
+
+G-Mean: 0.500000
+Accuracy: 0.428571
+Accuracy(Balanced): 0.500000
+Precision: 0.214286
+Recall: 0.000000
+Specificity: 1.000000
+F1-Score(macro): 0.300000
+F1-Score(binary): 0.000000
+F1-Score(default): 0.000000
+F1-Score(none): [0.6 0. ]
+7 - museData15.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 218/218 [00:49<00:00,  4.44it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.50      0.70      0.58        10
+           1       0.62      0.42      0.50        12
+
+    accuracy                           0.55        22
+   macro avg       0.56      0.56      0.54        22
+weighted avg       0.57      0.55      0.54        22
+
+G-Mean: 0.558333
+Accuracy: 0.545455
+Accuracy(Balanced): 0.558333
+Precision: 0.562500
+Recall: 0.416667
+Specificity: 0.700000
+F1-Score(macro): 0.541667
+F1-Score(binary): 0.500000
+F1-Score(default): 0.500000
+F1-Score(none): [0.58333333 0.5       ]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.50      0.70      0.58        10
+           1       0.62      0.42      0.50        12
+
+    accuracy                           0.55        22
+   macro avg       0.56      0.56      0.54        22
+weighted avg       0.57      0.55      0.54        22
+
+G-Mean: 0.558333
+Accuracy: 0.545455
+Accuracy(Balanced): 0.558333
+Precision: 0.562500
+Recall: 0.416667
+Specificity: 0.700000
+F1-Score(macro): 0.541667
+F1-Score(binary): 0.500000
+F1-Score(default): 0.500000
+F1-Score(none): [0.58333333 0.5       ]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.50      0.70      0.58        10
+           1       0.62      0.42      0.50        12
+
+    accuracy                           0.55        22
+   macro avg       0.56      0.56      0.54        22
+weighted avg       0.57      0.55      0.54        22
+
+G-Mean: 0.558333
+Accuracy: 0.545455
+Accuracy(Balanced): 0.558333
+Precision: 0.562500
+Recall: 0.416667
+Specificity: 0.700000
+F1-Score(macro): 0.541667
+F1-Score(binary): 0.500000
+F1-Score(default): 0.500000
+F1-Score(none): [0.58333333 0.5       ]
+8 - museData16.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 198/198 [00:52<00:00,  3.80it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.43      0.33      0.38         9
+           1       0.54      0.64      0.58        11
+
+    accuracy                           0.50        20
+   macro avg       0.48      0.48      0.48        20
+weighted avg       0.49      0.50      0.49        20
+
+G-Mean: 0.484848
+Accuracy: 0.500000
+Accuracy(Balanced): 0.484848
+Precision: 0.483516
+Recall: 0.636364
+Specificity: 0.333333
+F1-Score(macro): 0.479167
+F1-Score(binary): 0.583333
+F1-Score(default): 0.583333
+F1-Score(none): [0.375      0.58333333]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.62      0.56      0.59         9
+           1       0.67      0.73      0.70        11
+
+    accuracy                           0.65        20
+   macro avg       0.65      0.64      0.64        20
+weighted avg       0.65      0.65      0.65        20
+
+G-Mean: 0.641414
+Accuracy: 0.650000
+Accuracy(Balanced): 0.641414
+Precision: 0.645833
+Recall: 0.727273
+Specificity: 0.555556
+F1-Score(macro): 0.641944
+F1-Score(binary): 0.695652
+F1-Score(default): 0.695652
+F1-Score(none): [0.58823529 0.69565217]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.45      0.56      0.50         9
+           1       0.56      0.45      0.50        11
+
+    accuracy                           0.50        20
+   macro avg       0.51      0.51      0.50        20
+weighted avg       0.51      0.50      0.50        20
+
+G-Mean: 0.505051
+Accuracy: 0.500000
+Accuracy(Balanced): 0.505051
+Precision: 0.505051
+Recall: 0.454545
+Specificity: 0.555556
+F1-Score(macro): 0.500000
+F1-Score(binary): 0.500000
+F1-Score(default): 0.500000
+F1-Score(none): [0.5 0.5]
+9 - museData17.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 282/282 [01:04<00:00,  4.38it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.09      0.10      0.10        10
+           1       0.50      0.47      0.49        19
+
+    accuracy                           0.34        29
+   macro avg       0.30      0.29      0.29        29
+weighted avg       0.36      0.34      0.35        29
+
+G-Mean: 0.286842
+Accuracy: 0.344828
+Accuracy(Balanced): 0.286842
+Precision: 0.295455
+Recall: 0.473684
+Specificity: 0.100000
+F1-Score(macro): 0.290862
+F1-Score(binary): 0.486486
+F1-Score(default): 0.486486
+F1-Score(none): [0.0952381  0.48648649]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.18      0.20      0.19        10
+           1       0.56      0.53      0.54        19
+
+    accuracy                           0.41        29
+   macro avg       0.37      0.36      0.37        29
+weighted avg       0.43      0.41      0.42        29
+
+G-Mean: 0.363158
+Accuracy: 0.413793
+Accuracy(Balanced): 0.363158
+Precision: 0.368687
+Recall: 0.526316
+Specificity: 0.200000
+F1-Score(macro): 0.365508
+F1-Score(binary): 0.540541
+F1-Score(default): 0.540541
+F1-Score(none): [0.19047619 0.54054054]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.19      0.30      0.23        10
+           1       0.46      0.32      0.38        19
+
+    accuracy                           0.31        29
+   macro avg       0.32      0.31      0.30        29
+weighted avg       0.37      0.31      0.33        29
+
+G-Mean: 0.307895
+Accuracy: 0.310345
+Accuracy(Balanced): 0.307895
+Precision: 0.324519
+Recall: 0.315789
+Specificity: 0.300000
+F1-Score(macro): 0.302885
+F1-Score(binary): 0.375000
+F1-Score(default): 0.375000
+F1-Score(none): [0.23076923 0.375     ]
+10 - museData18.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 166/166 [00:40<00:00,  4.11it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.33      0.25      0.29         8
+           1       0.45      0.56      0.50         9
+
+    accuracy                           0.41        17
+   macro avg       0.39      0.40      0.39        17
+weighted avg       0.40      0.41      0.40        17
+
+G-Mean: 0.402778
+Accuracy: 0.411765
+Accuracy(Balanced): 0.402778
+Precision: 0.393939
+Recall: 0.555556
+Specificity: 0.250000
+F1-Score(macro): 0.392857
+F1-Score(binary): 0.500000
+F1-Score(default): 0.500000
+F1-Score(none): [0.28571429 0.5       ]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.22      0.25      0.24         8
+           1       0.25      0.22      0.24         9
+
+    accuracy                           0.24        17
+   macro avg       0.24      0.24      0.24        17
+weighted avg       0.24      0.24      0.24        17
+
+G-Mean: 0.236111
+Accuracy: 0.235294
+Accuracy(Balanced): 0.236111
+Precision: 0.236111
+Recall: 0.222222
+Specificity: 0.250000
+F1-Score(macro): 0.235294
+F1-Score(binary): 0.235294
+F1-Score(default): 0.235294
+F1-Score(none): [0.23529412 0.23529412]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.33      0.38      0.35         8
+           1       0.38      0.33      0.35         9
+
+    accuracy                           0.35        17
+   macro avg       0.35      0.35      0.35        17
+weighted avg       0.36      0.35      0.35        17
+
+G-Mean: 0.354167
+Accuracy: 0.352941
+Accuracy(Balanced): 0.354167
+Precision: 0.354167
+Recall: 0.333333
+Specificity: 0.375000
+F1-Score(macro): 0.352941
+F1-Score(binary): 0.352941
+F1-Score(default): 0.352941
+F1-Score(none): [0.35294118 0.35294118]
+11 - museData19.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 152/152 [00:34<00:00,  4.36it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.36      0.57      0.44         7
+           1       0.40      0.22      0.29         9
+
+    accuracy                           0.38        16
+   macro avg       0.38      0.40      0.37        16
+weighted avg       0.38      0.38      0.36        16
+
+G-Mean: 0.396825
+Accuracy: 0.375000
+Accuracy(Balanced): 0.396825
+Precision: 0.381818
+Recall: 0.222222
+Specificity: 0.571429
+F1-Score(macro): 0.365079
+F1-Score(binary): 0.285714
+F1-Score(default): 0.285714
+F1-Score(none): [0.44444444 0.28571429]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.42      0.71      0.53         7
+           1       0.50      0.22      0.31         9
+
+    accuracy                           0.44        16
+   macro avg       0.46      0.47      0.42        16
+weighted avg       0.46      0.44      0.40        16
+
+G-Mean: 0.468254
+Accuracy: 0.437500
+Accuracy(Balanced): 0.468254
+Precision: 0.458333
+Recall: 0.222222
+Specificity: 0.714286
+F1-Score(macro): 0.417004
+F1-Score(binary): 0.307692
+F1-Score(default): 0.307692
+F1-Score(none): [0.52631579 0.30769231]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.56      0.71      0.62         7
+           1       0.71      0.56      0.62         9
+
+    accuracy                           0.62        16
+   macro avg       0.63      0.63      0.62        16
+weighted avg       0.64      0.62      0.62        16
+
+G-Mean: 0.634921
+Accuracy: 0.625000
+Accuracy(Balanced): 0.634921
+Precision: 0.634921
+Recall: 0.555556
+Specificity: 0.714286
+F1-Score(macro): 0.625000
+F1-Score(binary): 0.625000
+F1-Score(default): 0.625000
+F1-Score(none): [0.625 0.625]
+12 - museData4.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 308/308 [01:10<00:00,  4.38it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.42      0.67      0.51        15
+           1       0.29      0.12      0.17        16
+
+    accuracy                           0.39        31
+   macro avg       0.35      0.40      0.34        31
+weighted avg       0.35      0.39      0.34        31
+
+G-Mean: 0.395833
+Accuracy: 0.387097
+Accuracy(Balanced): 0.395833
+Precision: 0.351190
+Recall: 0.125000
+Specificity: 0.666667
+F1-Score(macro): 0.343367
+F1-Score(binary): 0.173913
+F1-Score(default): 0.173913
+F1-Score(none): [0.51282051 0.17391304]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.48      0.67      0.56        15
+           1       0.50      0.31      0.38        16
+
+    accuracy                           0.48        31
+   macro avg       0.49      0.49      0.47        31
+weighted avg       0.49      0.48      0.47        31
+
+G-Mean: 0.489583
+Accuracy: 0.483871
+Accuracy(Balanced): 0.489583
+Precision: 0.488095
+Recall: 0.312500
+Specificity: 0.666667
+F1-Score(macro): 0.470085
+F1-Score(binary): 0.384615
+F1-Score(default): 0.384615
+F1-Score(none): [0.55555556 0.38461538]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.38      0.53      0.44        15
+           1       0.30      0.19      0.23        16
+
+    accuracy                           0.35        31
+   macro avg       0.34      0.36      0.34        31
+weighted avg       0.34      0.35      0.33        31
+
+G-Mean: 0.360417
+Accuracy: 0.354839
+Accuracy(Balanced): 0.360417
+Precision: 0.340476
+Recall: 0.187500
+Specificity: 0.533333
+F1-Score(macro): 0.337607
+F1-Score(binary): 0.230769
+F1-Score(default): 0.230769
+F1-Score(none): [0.44444444 0.23076923]
+13 - museData5.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 404/404 [01:32<00:00,  4.35it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.50      0.42      0.45        24
+           1       0.33      0.41      0.37        17
+
+    accuracy                           0.41        41
+   macro avg       0.42      0.41      0.41        41
+weighted avg       0.43      0.41      0.42        41
+
+G-Mean: 0.414216
+Accuracy: 0.414634
+Accuracy(Balanced): 0.414216
+Precision: 0.416667
+Recall: 0.411765
+Specificity: 0.416667
+F1-Score(macro): 0.411483
+F1-Score(binary): 0.368421
+F1-Score(default): 0.368421
+F1-Score(none): [0.45454545 0.36842105]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.52      0.54      0.53        24
+           1       0.31      0.29      0.30        17
+
+    accuracy                           0.44        41
+   macro avg       0.42      0.42      0.42        41
+weighted avg       0.43      0.44      0.44        41
+
+G-Mean: 0.417892
+Accuracy: 0.439024
+Accuracy(Balanced): 0.417892
+Precision: 0.416250
+Recall: 0.294118
+Specificity: 0.541667
+F1-Score(macro): 0.416821
+F1-Score(binary): 0.303030
+F1-Score(default): 0.303030
+F1-Score(none): [0.53061224 0.3030303 ]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.55      0.50      0.52        24
+           1       0.37      0.41      0.39        17
+
+    accuracy                           0.46        41
+   macro avg       0.46      0.46      0.46        41
+weighted avg       0.47      0.46      0.47        41
+
+G-Mean: 0.455882
+Accuracy: 0.463415
+Accuracy(Balanced): 0.455882
+Precision: 0.456938
+Recall: 0.411765
+Specificity: 0.500000
+F1-Score(macro): 0.455314
+F1-Score(binary): 0.388889
+F1-Score(default): 0.388889
+F1-Score(none): [0.52173913 0.38888889]
+14 - museData6.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 96/96 [00:22<00:00,  4.26it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.40      0.33      0.36         6
+           1       0.20      0.25      0.22         4
+
+    accuracy                           0.30        10
+   macro avg       0.30      0.29      0.29        10
+weighted avg       0.32      0.30      0.31        10
+
+G-Mean: 0.291667
+Accuracy: 0.300000
+Accuracy(Balanced): 0.291667
+Precision: 0.300000
+Recall: 0.250000
+Specificity: 0.333333
+F1-Score(macro): 0.292929
+F1-Score(binary): 0.222222
+F1-Score(default): 0.222222
+F1-Score(none): [0.36363636 0.22222222]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.50      0.50      0.50         6
+           1       0.25      0.25      0.25         4
+
+    accuracy                           0.40        10
+   macro avg       0.38      0.38      0.38        10
+weighted avg       0.40      0.40      0.40        10
+
+G-Mean: 0.375000
+Accuracy: 0.400000
+Accuracy(Balanced): 0.375000
+Precision: 0.375000
+Recall: 0.250000
+Specificity: 0.500000
+F1-Score(macro): 0.375000
+F1-Score(binary): 0.250000
+F1-Score(default): 0.250000
+F1-Score(none): [0.5  0.25]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.40      0.33      0.36         6
+           1       0.20      0.25      0.22         4
+
+    accuracy                           0.30        10
+   macro avg       0.30      0.29      0.29        10
+weighted avg       0.32      0.30      0.31        10
+
+G-Mean: 0.291667
+Accuracy: 0.300000
+Accuracy(Balanced): 0.291667
+Precision: 0.300000
+Recall: 0.250000
+Specificity: 0.333333
+F1-Score(macro): 0.292929
+F1-Score(binary): 0.222222
+F1-Score(default): 0.222222
+F1-Score(none): [0.36363636 0.22222222]
+15 - museData7.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 220/220 [00:50<00:00,  4.32it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         6
+           1       0.71      0.94      0.81        16
+
+    accuracy                           0.68        22
+   macro avg       0.36      0.47      0.41        22
+weighted avg       0.52      0.68      0.59        22
+
+G-Mean: 0.468750
+Accuracy: 0.681818
+Accuracy(Balanced): 0.468750
+Precision: 0.357143
+Recall: 0.937500
+Specificity: 0.000000
+F1-Score(macro): 0.405405
+F1-Score(binary): 0.810811
+F1-Score(default): 0.810811
+F1-Score(none): [0.         0.81081081]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         6
+           1       0.68      0.81      0.74        16
+
+    accuracy                           0.59        22
+   macro avg       0.34      0.41      0.37        22
+weighted avg       0.50      0.59      0.54        22
+
+G-Mean: 0.406250
+Accuracy: 0.590909
+Accuracy(Balanced): 0.406250
+Precision: 0.342105
+Recall: 0.812500
+Specificity: 0.000000
+F1-Score(macro): 0.371429
+F1-Score(binary): 0.742857
+F1-Score(default): 0.742857
+F1-Score(none): [0.         0.74285714]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         6
+           1       0.73      1.00      0.84        16
+
+    accuracy                           0.73        22
+   macro avg       0.36      0.50      0.42        22
+weighted avg       0.53      0.73      0.61        22
+
+G-Mean: 0.500000
+Accuracy: 0.727273
+Accuracy(Balanced): 0.500000
+Precision: 0.363636
+Recall: 1.000000
+Specificity: 0.000000
+F1-Score(macro): 0.421053
+F1-Score(binary): 0.842105
+F1-Score(default): 0.842105
+F1-Score(none): [0.         0.84210526]
+16 - museData8.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 356/356 [01:26<00:00,  4.12it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.64      0.33      0.44        21
+           1       0.44      0.73      0.55        15
+
+    accuracy                           0.50        36
+   macro avg       0.54      0.53      0.49        36
+weighted avg       0.55      0.50      0.48        36
+
+G-Mean: 0.533333
+Accuracy: 0.500000
+Accuracy(Balanced): 0.533333
+Precision: 0.538182
+Recall: 0.733333
+Specificity: 0.333333
+F1-Score(macro): 0.493750
+F1-Score(binary): 0.550000
+F1-Score(default): 0.550000
+F1-Score(none): [0.4375 0.55  ]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.58      0.33      0.42        21
+           1       0.42      0.67      0.51        15
+
+    accuracy                           0.47        36
+   macro avg       0.50      0.50      0.47        36
+weighted avg       0.51      0.47      0.46        36
+
+G-Mean: 0.500000
+Accuracy: 0.472222
+Accuracy(Balanced): 0.500000
+Precision: 0.500000
+Recall: 0.666667
+Specificity: 0.333333
+F1-Score(macro): 0.468531
+F1-Score(binary): 0.512821
+F1-Score(default): 0.512821
+F1-Score(none): [0.42424242 0.51282051]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.72      0.62      0.67        21
+           1       0.56      0.67      0.61        15
+
+    accuracy                           0.64        36
+   macro avg       0.64      0.64      0.64        36
+weighted avg       0.65      0.64      0.64        36
+
+G-Mean: 0.642857
+Accuracy: 0.638889
+Accuracy(Balanced): 0.642857
+Precision: 0.638889
+Recall: 0.666667
+Specificity: 0.619048
+F1-Score(macro): 0.636364
+F1-Score(binary): 0.606061
+F1-Score(default): 0.606061
+F1-Score(none): [0.66666667 0.60606061]
+17 - museData9.csv --------------------------------------------
+
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+Feature Extraction: 100%|██████████| 228/228 [00:51<00:00,  4.39it/s]
+
+Random Forest ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.72      0.76      0.74        17
+           1       0.20      0.17      0.18         6
+
+    accuracy                           0.61        23
+   macro avg       0.46      0.47      0.46        23
+weighted avg       0.59      0.61      0.60        23
+
+G-Mean: 0.465686
+Accuracy: 0.608696
+Accuracy(Balanced): 0.465686
+Precision: 0.461111
+Recall: 0.166667
+Specificity: 0.764706
+F1-Score(macro): 0.462338
+F1-Score(binary): 0.181818
+F1-Score(default): 0.181818
+F1-Score(none): [0.74285714 0.18181818]
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.69      0.65      0.67        17
+           1       0.14      0.17      0.15         6
+
+    accuracy                           0.52        23
+   macro avg       0.42      0.41      0.41        23
+weighted avg       0.55      0.52      0.53        23
+
+G-Mean: 0.406863
+Accuracy: 0.521739
+Accuracy(Balanced): 0.406863
+Precision: 0.415179
+Recall: 0.166667
+Specificity: 0.647059
+F1-Score(macro): 0.410256
+F1-Score(binary): 0.153846
+F1-Score(default): 0.153846
+F1-Score(none): [0.66666667 0.15384615]
+SVM (SVC) ----------------
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+              precision    recall  f1-score   support
+
+           0       0.78      0.82      0.80        17
+           1       0.40      0.33      0.36         6
+
+    accuracy                           0.70        23
+   macro avg       0.59      0.58      0.58        23
+weighted avg       0.68      0.70      0.69        23
+
+G-Mean: 0.578431
+Accuracy: 0.695652
+Accuracy(Balanced): 0.578431
+Precision: 0.588889
+Recall: 0.333333
+Specificity: 0.823529
+F1-Score(macro): 0.581818
+F1-Score(binary): 0.363636
+F1-Score(default): 0.363636
+F1-Score(none): [0.8        0.36363636]

@@ -1,0 +1,126 @@
+------------------ 2024-11-04 23:57:37 ------------------
+18  Features seleccionadas:  ['RAW_AF8__fft_coefficient__attr_"imag"__coeff_91', 'RAW_AF7__fft_coefficient__attr_"imag"__coeff_8', 'RAW_AF8__fft_coefficient__attr_"angle"__coeff_91', 'RAW_AF8__fft_coefficient__attr_"angle"__coeff_73', 'RAW_AF8__fft_coefficient__attr_"angle"__coeff_6', 'RAW_AF7__fft_coefficient__attr_"angle"__coeff_31', 'RAW_AF7__fft_coefficient__attr_"real"__coeff_6', 'RAW_AF8__fft_coefficient__attr_"imag"__coeff_14', 'RAW_AF8__change_quantiles__f_agg_"mean"__isabs_False__qh_0.8__ql_0.4', 'RAW_AF8__fft_coefficient__attr_"real"__coeff_18', 'RAW_AF8__fft_coefficient__attr_"real"__coeff_89', 'RAW_AF7__friedrich_coefficients__coeff_0__m_3__r_30', 'RAW_AF8__fft_coefficient__attr_"imag"__coeff_92', 'RAW_AF8__fft_coefficient__attr_"imag"__coeff_73', 'RAW_AF7__friedrich_coefficients__coeff_3__m_3__r_30', 'RAW_AF7__fft_coefficient__attr_"angle"__coeff_8', 'RAW_AF7__energy_ratio_by_chunks__num_segments_10__segment_focus_8', 'RAW_AF7__fft_coefficient__attr_"abs"__coeff_40']
+RandomForestClassifier(max_depth=10, min_samples_split=5, n_estimators=400,
+                       random_state=25)
+--5 fold cross validation results--
+metric 	 mean ± std
+ g_mean: 0.676970 ± 0.0654
+ accuracy: 0.676842 ± 0.0672
+ balance_accuracy: 0.676970 ± 0.0654
+ precision: 0.684815 ± 0.0676
+ specificity: 0.687273 ± 0.133
+ recall: 0.666667 ± 0.122
+ f1_macro: 0.671770 ± 0.0664
+([array([0.6769697]), array([0.67684211]), array([0.6769697]), array([0.68481518]), array([0.68727273]), array([0.66666667]), array([0.67177033])], [array([0.0653853]), array([0.06718313]), array([0.0653853]), array([0.06764831]), array([0.13281442]), array([0.12171612]), array([0.06637423])])
+[[14  2]
+ [ 0  9]]
+              precision    recall  f1-score   support
+
+           0       1.00      0.88      0.93        16
+           1       0.82      1.00      0.90         9
+
+    accuracy                           0.92        25
+   macro avg       0.91      0.94      0.92        25
+weighted avg       0.93      0.92      0.92        25
+
+G-Mean: 0.937500
+Accuracy: 0.920000
+Accuracy(Balanced): 0.937500
+Precision: 0.909091
+Recall: 1.000000
+Specificity: 0.875000
+F1-Score(macro): 0.916667
+F1-Score(binary): 0.900000
+F1-Score(default): 0.900000
+F1-Score(none): [0.93333333 0.9       ]
+[0.9375     0.92       0.9375     0.90909091 1.         0.875
+ 0.91666667] 
+
+
+
+------------------ 2024-11-04 23:57:39 ------------------
+XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.6, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=0, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.2, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=7, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=200, n_jobs=None,
+              num_parallel_tree=None, random_state=42, ...)
+--5 fold cross validation results--
+metric 	 mean ± std
+ g_mean: 0.621414 ± 0.0471
+ accuracy: 0.626316 ± 0.0501
+ balance_accuracy: 0.621414 ± 0.0471
+ precision: 0.627947 ± 0.0463
+ specificity: 0.687273 ± 0.12
+ recall: 0.555556 ± 0.0994
+ f1_macro: 0.617122 ± 0.0506
+([array([0.62141414]), array([0.62631579]), array([0.62141414]), array([0.62794705]), array([0.68727273]), array([0.55555556]), array([0.61712234])], [array([0.04705553]), array([0.0500692]), array([0.04705553]), array([0.04632808]), array([0.1197242]), array([0.0993808]), array([0.05059328])])
+[[12  4]
+ [ 0  9]]
+              precision    recall  f1-score   support
+
+           0       1.00      0.75      0.86        16
+           1       0.69      1.00      0.82         9
+
+    accuracy                           0.84        25
+   macro avg       0.85      0.88      0.84        25
+weighted avg       0.89      0.84      0.84        25
+
+G-Mean: 0.875000
+Accuracy: 0.840000
+Accuracy(Balanced): 0.875000
+Precision: 0.846154
+Recall: 1.000000
+Specificity: 0.750000
+F1-Score(macro): 0.837662
+F1-Score(binary): 0.818182
+F1-Score(default): 0.818182
+F1-Score(none): [0.85714286 0.81818182]
+[0.875      0.84       0.875      0.84615385 1.         0.75
+ 0.83766234] 
+
+
+
+------------------ 2024-11-04 23:58:36 ------------------
+SVC(C=0.1, gamma='auto', kernel='linear')
+--5 fold cross validation results--
+metric 	 mean ± std
+ g_mean: 0.643838 ± 0.0919
+ accuracy: 0.646316 ± 0.084
+ balance_accuracy: 0.643838 ± 0.0919
+ precision: 0.659350 ± 0.0985
+ specificity: 0.665455 ± 0.139
+ recall: 0.622222 ± 0.229
+ f1_macro: 0.633107 ± 0.089
+([array([0.64383838]), array([0.64631579]), array([0.64383838]), array([0.65934982]), array([0.66545455]), array([0.62222222]), array([0.63310743])], [array([0.09189721]), array([0.08398984]), array([0.09189721]), array([0.09848446]), array([0.13875479]), array([0.22879178]), array([0.08899766])])
+[[14  2]
+ [ 0  9]]
+              precision    recall  f1-score   support
+
+           0       1.00      0.88      0.93        16
+           1       0.82      1.00      0.90         9
+
+    accuracy                           0.92        25
+   macro avg       0.91      0.94      0.92        25
+weighted avg       0.93      0.92      0.92        25
+
+G-Mean: 0.937500
+Accuracy: 0.920000
+Accuracy(Balanced): 0.937500
+Precision: 0.909091
+Recall: 1.000000
+Specificity: 0.875000
+F1-Score(macro): 0.916667
+F1-Score(binary): 0.900000
+F1-Score(default): 0.900000
+F1-Score(none): [0.93333333 0.9       ]
+[0.9375     0.92       0.9375     0.90909091 1.         0.875
+ 0.91666667] 
+
+
+

@@ -1,0 +1,86 @@
+800-200
+	Ax-absolutos(umbr_inf=700, umbr_sup=900)
+		A1=A2
+			g_mean
+			>=0.8
+				('museData6.csv', 'RF')   | 0.861111 
+				('museData6.csv', 'XGB')   | 0.80 
+				('museData6.csv', 'SVM')   | 0.83
+			>=0.6
+				('museData12.csv', 'RF'|XBG|SM)   | 0.62/0.67
+				('museData17.csv', 'RF'|XBG|SM)   | 0.62/0.67
+				('museData19.csv', 'RF'|XBG|SM)   | 0.62/0.67
+
+	Rx-relativos (low_per=0.01, high_per=0.925)
+		R1(per_miss_val0.2)=R2
+			g_mean
+				>=0.8
+				 	('museData12.csv', 'SVM') | 0.9
+				>=0.6
+					('museData12.csv', 'RF')  | 0.733333 
+					('museData19.csv', 'RF')  | 0.706349 
+					('museData12.csv', 'XGB') | 0.683333
+					('museData16.csv', 'RF')  | 0.666667 
+					('museData16.csv', 'XGB') | 0.621212 
+					('museData17.csv', 'RF')  | 0.668421 
+					('museData17.csv', 'XGB') | 0.642105
+					('museData19.csv', 'SVM') | 0.650794
+					('museData7.csv', 'XGB')  | 0.635417
+					('museData9.csv', 'XGB')  | 0.602941
+					('museData9.csv', 'SVM')  | 0.602941
+		R3(ms_prev=2300)
+				>=0.6
+					('museData10.csv', 'RF')  | 0.659341 
+					('museData10.csv', 'XGB') | 0.623626 
+					('museData12.csv', 'RF')  | 0.622727
+					('museData12.csv', 'XGB') | 0.618182
+					('museData12.csv', 'SVM') | 0.622727
+					('museData13.csv', 'RF')  | 0.675 
+					('museData9.csv', 'RF')   | 0.611111
+		R4(ms_prev=4800)
+				>=0.6
+					('museData18.csv', 'RF')  | 0.6 
+					('museData18.csv', 'XGB')  | 0.6 
+					('museData5.csv', 'SVM')  | 0.6
+		R5(ms_prev=7300)
+				>=0.6
+					('museData13.csv', 'XGB') | 0.7
+					('museData6.csv', 'XGB')  | 0.708333
+					('museData10.csv', 'XGB') | 0.65641
+					('museData18.csv', 'RF')  | 0.642424
+					('museData19.csv', 'RF')  | 0.6
+					('museData19.csv', 'XGB') | 0.6625
+					('museData19.csv', 'SVM') | 0.675
+					('museData4.csv', 'SVM')  | 0.617647
+					('museData6.csv', 'SVM')  | 0.638889 
+		R6(ms_prev=9800)
+				>=0.8
+					('museData13.csv', 'XGB') | 0.9
+				>=0.6
+					('museData11.csv', 'XGB') | 0.730952
+					('museData12.csv', 'XGB') | 0.727273
+					('museData14.csv', 'RF')  | 0.708333
+					('museData14.csv', 'SVM') | 0.717105
+					('museData19.csv', 'SVM') | 0.7125
+					('museData7.csv', 'XGB')  | 0.75 
+					('museData0.csv', 'RF')   | 0.609023
+					('museData11.csv', 'SVM') | 0.657143 
+					('museData12.csv', 'RF')  | 0.636364
+					('museData14.csv', 'XGB') | 0.644737
+					('museData5.csv', 'SVM')  | 0.635
+					('museData7.csv', 'RF')   | 0.666667
+
+
+
+Conclusiones: 
+	-Los umbrales relativos nos dejan con menos ventanas de respuesta para trabajar, pero
+obtenemos mejores ressultados.
+		- El caso más extremo es el fichero muse6 pasamos de 80% de g_mean a un 40% (estamos descartando la mitad de ventanas)
+	-Modificar el umbral de valores perdidos no esta teniendo efectos en estos momentos, por lo
+	que a partir de ahora lo estableceremos a 0.1 con el objetivo de no volver a cambiarlo.
+	-Para los siguientes experimentos utilizaremos solo las ventanas relativas.
+	-Los mejores resultados los podemos encontrar en la ventana más grande R6 o en la más pequeña R1
+
+Notas:
+	Las selección de características se ha hecho en base al fichero muse12, obteniendo un total de 17 características
+

@@ -1,0 +1,26 @@
+-previo al 18/10
+Random Forest ----------------
+Best parameters: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+Random Forest Accuracy: 0.6666666666666666
+Random Forest Precision: 0.8214285714285714
+Random Forest Recall: 0.5833333333333334
+Random Forest F1-Score: 0.5341614906832298
+
+-18/10 (despues de seleccionar features)(optimizando accuracy)
+Random Forest ----------------
+Fitting 5 folds for each of 48 candidates, totalling 240 fits
+Best parameters: {'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 400}
+Random Forest G-Mean: 0.5601120336112039
+Random Forest Accuracy: 0.6896551724137931
+Random Forest Accuracy(Balanced): 0.6372549019607843
+Random Forest Precision: 0.7333333333333334
+Random Forest Recall: 0.6372549019607843
+Random Forest Specificity: 0.6372549019607843
+Random Forest F1-Score: 0.47058823529411764
+Random Forest F1-Score(macro): 0.6255380200860832
+
+	- Con una menor cantidad de features hemos mejorado ligeramente la accuracy y hemos mejorado el f1-score(macro) de 0.53 a 0.62
+-evaluando en función de g-mean
+	Mismos resultados
+
+25/10
